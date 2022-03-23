@@ -53,14 +53,18 @@ ul, header li,header li a,.login-button{
     background-image: none;
     max-width: 800px;
     margin:auto;
-    padding:150px 0;
+    padding:200px 0;
     color: white;
 }
 .hero h1{
     padding-bottom: 50px;
+    font-size: 48px;
 }
 .hero p{
     padding-bottom:25px;
+}
+.hero.wrapper a {
+    margin: 0 20px;
 }
 .hero.wrapper a:last-child{
     color: white;
