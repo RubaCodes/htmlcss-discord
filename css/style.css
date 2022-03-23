@@ -16,7 +16,7 @@
     text-decoration: none;
     padding: 16px;
     border: 1px solid transparent;
-    border-radius: 16px;
+    border-radius: 50px;
     background-color: white;
     color: black;
 }
@@ -44,9 +44,20 @@ ul, header li,header li a,.login-button{
     background-repeat: no-repeat;
 }
 .hero.wrapper{
+    text-align: center;
     background-image: none;
     max-width: 800px;
     margin:auto;
     padding:150px 0;
     color: white;
+}
+.hero h1{
+    padding-bottom: 50px;
+}
+.hero p{
+    padding-bottom:25px;
+}
+.hero.wrapper a:last-child{
+    color: white;
+    background-color: black;
 }
