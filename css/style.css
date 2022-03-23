@@ -70,6 +70,7 @@ ul, header li,header li a,.login-button{
     font-size: 48px;
 }
 .hero p{
+    font-weight: bold;
     padding-bottom:25px;
 }
 .hero.wrapper a {
@@ -103,13 +104,30 @@ section p{
 section:last-of-type{
     text-align: center;
 }
+.second-section .col-little{
+    margin-right: 140px;
+}
 .col-little{
     margin-left: 140px;
 }
 
 .special-section h3{
-    padding: 20px;
+    padding: 30px 50px;
+    width: 40%;
+    margin: auto;
     background-image: url(../img/stars.svg);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
+}
+.special-section img{
+    width: 100%;
+}
+.special-section p{
+    width: 90%;
+    margin: auto;
+}
+.special-section .button{
+    margin-top: 30px;
+    color: white;
+    background-color: #8d9ddd;
 }
