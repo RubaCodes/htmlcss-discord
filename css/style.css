@@ -6,8 +6,47 @@
 }
 
 /* COMMON */
-.clearfix::after{
+.clearfix::after {
     content: "";
-    display: table;
     clear: both;
+    display: block;
+  }
+.button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background-color: white;
+    color: black;
+}
+
+/* HEADER */
+
+header{
+    /* padding: 30px 0; */
+    background-color: #3161e0;
+}
+ul{
+    text-align: center;
+}
+
+
+ul, header li,header li a,.login-button{
+    display: inline-block;
+}
+
+/* HERO SECTION */
+.hero{
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero.wrapper{
+    background-image: none;
+    max-width: 800px;
+    margin:auto;
+    padding:150px 0;
+    color: white;
 }
