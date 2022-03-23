@@ -20,6 +20,15 @@
     background-color: white;
     color: black;
 }
+.col-big,.col-little{
+    float: left;
+}
+.col-big{
+    max-width: 75%;
+}
+.col-little{
+    max-width: 25%  ;
+}
 
 /* TYPO */
 body{
@@ -69,4 +78,24 @@ ul, header li,header li a,.login-button{
 .hero.wrapper a:last-child{
     color: white;
     background-color: black;
+}
+
+/* SECTION 1 */
+.wrapper{
+    max-width: 1300px;
+    margin:auto;
+}
+section{
+    padding: 150px 0;
+}
+section h2{
+    font-size: 48px;
+}
+section p{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.col-little{
+    margin-left: 140px;
 }
