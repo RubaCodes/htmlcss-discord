@@ -88,14 +88,28 @@ ul, header li,header li a,.login-button{
 section{
     padding: 150px 0;
 }
+section:nth-child(2n + 1){
+    background-color: #f6f6f6;
+}
 section h2{
     font-size: 48px;
+    margin-top: 40px;
 }
 section p{
     padding-top: 30px;
     font-size: 20px;
     line-height: 30px;
 }
+section:last-of-type{
+    text-align: center;
+}
 .col-little{
     margin-left: 140px;
+}
+
+.special-section h3{
+    padding: 20px;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: cover;
 }
