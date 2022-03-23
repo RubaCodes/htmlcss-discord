@@ -46,7 +46,7 @@ header{
 
 header img{
     float: left;
-    margin-top: 20px;
+    padding: 16px;
 }
 header ul{
     text-align: center;
@@ -58,6 +58,12 @@ header ul li,header ul li a{
     color:white;
     text-transform: capitalize;
 }
+header ul li a{
+    font-size: 20px;
+    padding: 16px;
+    font-weight: bold;
+}
+
 
 header .button{
     float:right;
