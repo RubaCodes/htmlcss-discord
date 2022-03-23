@@ -21,6 +21,11 @@
     color: black;
 }
 
+/* TYPO */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* HEADER */
 
 header{
