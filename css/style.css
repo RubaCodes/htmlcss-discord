@@ -103,7 +103,7 @@ section:last-of-type{
 .second-section .col-little{
     margin-right: 140px;
 }
-.first-section.col-little,.third-section.col-little{
+.first-section .col-little,.third-section .col-little{
     margin-left: 140px;
 }
 
@@ -130,7 +130,7 @@ section:last-of-type{
     background-color: #8d9ddd;
 }
 
-/* FOOTER */
+/* FOOTER, PARTE PRE HR */
 .col-footer-big{
     width: 25%;
     float: left;
@@ -171,6 +171,11 @@ footer .language:after{
 }
 footer .icons i{
     margin-right: 20px;
+}
+/* PARTE POST HR DEL FOOTER */
+footer hr{
+    color: #7083d3;
+    margin-top: 20px;
 }
 
 footer .button{
