@@ -20,18 +20,7 @@
     background-color: white;
     color: black;
 }
-.col-big,.col-little,.col-smallest{
-    float: left;
-}
-.col-big{
-    max-width: 75%;
-}
-.col-little{
-    max-width: 25%  ;
-}
-.col-smallest{
-    max-width: 12.5%;
-}
+
 
 
 /* TYPO */
@@ -42,8 +31,37 @@ body{
 /* HEADER */
 
 header{
-    /* padding: 30px 0; */
+    padding: 30px 0; 
     background-color: #2f57e3;
+}
+.header-col-big{
+    width: 75%;
+}
+.header-col-little{
+    width: calc(25% /2);
+}
+.header-col-little,.header-col-big{
+    float:left;
+}
+
+header img{
+    float: left;
+    margin-top: 20px;
+}
+header ul{
+    text-align: center;
+}
+
+header ul li,header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+}
+
+header .button{
+    float:right;
+
 }
 
 /* HERO SECTION */
@@ -99,6 +117,15 @@ section p{
 }
 section:last-of-type{
     text-align: center;
+}
+.col-big,.col-little{
+    float: left;
+}
+.col-big{
+    max-width: 75%;
+}
+.col-little{
+    max-width: 25%;
 }
 .second-section .col-little{
     margin-right: 140px;
