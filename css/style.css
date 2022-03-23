@@ -20,7 +20,7 @@
     background-color: white;
     color: black;
 }
-.col-big,.col-little{
+.col-big,.col-little,.col-smallest{
     float: left;
 }
 .col-big{
@@ -29,6 +29,10 @@
 .col-little{
     max-width: 25%  ;
 }
+.col-smallest{
+    max-width: 12.5%;
+}
+
 
 /* TYPO */
 body{
@@ -39,15 +43,7 @@ body{
 
 header{
     /* padding: 30px 0; */
-    background-color: #3161e0;
-}
-ul{
-    text-align: center;
-}
-
-
-ul, header li,header li a,.login-button{
-    display: inline-block;
+    background-color: #2f57e3;
 }
 
 /* HERO SECTION */
@@ -107,7 +103,7 @@ section:last-of-type{
 .second-section .col-little{
     margin-right: 140px;
 }
-.col-little{
+.first-section.col-little,.third-section.col-little{
     margin-left: 140px;
 }
 
@@ -128,6 +124,64 @@ section:last-of-type{
 }
 .special-section .button{
     margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: white;
     background-color: #8d9ddd;
 }
+
+/* FOOTER */
+.col-footer-big{
+    width: 25%;
+    float: left;
+}
+.col-footer-little{
+    width: calc(75% / 4 );
+    float: left;
+    
+}
+footer{
+    padding: 100px 0;
+    background-color: #282b2e;
+    color: white;
+}
+footer h3{
+    color: #7083d3;
+    font-size: 36px;
+}
+footer ul li{
+    list-style-type: none;
+    line-height: 30px;
+    
+}
+footer ul li:first-child{
+    color: #7083d3;
+    font-weight: bold;
+}
+footer .language {
+    margin: 20px 0;
+    
+}
+footer .language img{
+    height: 16px;
+    vertical-align:middle;
+}
+footer .language:after{
+    content: "⏷";
+}
+footer .icons i{
+    margin-right: 20px;
+}
+
+footer .button{
+    float:right;
+    margin-top:20px;
+    color: white;
+    background-color: #7083d3;
+}
+footer .logo{
+    float:left;
+    margin-top:20px;
+}
+
+
