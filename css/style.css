@@ -124,21 +124,17 @@ section p{
 section:last-of-type{
     text-align: center;
 }
+
 .col-big,.col-little{
     float: left;
 }
 .col-big{
-    max-width: 75%;
+    width: 75%;
 }
 .col-little{
-    max-width: 25%;
+    width: 25%;  
 }
-.second-section .col-little{
-    margin-right: 140px;
-}
-.first-section .col-little,.third-section .col-little{
-    margin-left: 140px;
-}
+
 
 .special-section h3{
     padding: 30px 50px;
