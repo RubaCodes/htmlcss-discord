@@ -134,8 +134,9 @@ section:last-of-type{
 .col-little{
     width: 25%;  
 }
-
-
+.second-section .col-big{
+    text-align: right;
+}
 .special-section h3{
     padding: 30px 50px;
     width: 40%;
